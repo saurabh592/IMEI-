@@ -1,0 +1,22 @@
+body{
+    background-color: aquamarine;
+}
+
+.container form{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    height: 90vh;
+    width: 300px;
+    margin: auto;
+    justify-content: center;
+    font-size: 2em;
+    
+}
+.btn:hover{
+    background-color: aqua;
+    font-size: 1em;
+    color: red;
+    cursor: pointer;
+}

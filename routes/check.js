@@ -1,8 +1,4 @@
 
-   
-	// javascript program to check whether the
-	// given EMEI number is valid or not.
-
 	// Function for finding and returning
 	// sum of digits of a number
 	function sumDig(n)
@@ -55,8 +51,6 @@
 	 	console.log("Valid IMEI Code");
 	 else
 	 	console.log("Invalid IMEI Code");
-
-// This code is contributed by vaibhavrabadiya117.
 
 
 module.exports={sumDig,isValidIMEI}

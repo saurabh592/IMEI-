@@ -4,10 +4,10 @@ const ejsLayouts = require('express-ejs-layouts');
 const bodyParser = require("body-parser");
 const app = express();
 
-app.set(express.static("public"));
+app.use(express.static("public"));
 app.set("view engine","ejs");
-// app.set("layout","layouts/layout");
-// app.use(ejsLayouts)
+app.set("layout","layouts/layout");
+app.use(ejsLayouts)
 
 app.use(bodyParser.urlencoded({extended:true}));
 
